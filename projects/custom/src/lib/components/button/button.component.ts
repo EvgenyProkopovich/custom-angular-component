@@ -1,16 +1,11 @@
 import {
-  ChangeDetectorRef,
-  Component, ElementRef,
+  Component,
   HostBinding,
   HostListener,
-  Input, NgZone,
-  Renderer2
+  Input,
 } from '@angular/core';
-import { ButtonAppearance } from '../component-apperance';
-import { ComponentShape } from '../component-shape';
-import { ComponentSize } from '../component-size';
 import { BooleanInput, convertToBoolProperty } from '../helpers';
-import { ComponentOrCustomStatus } from '../component-status';
+import { BaseComponent } from '../base-component';
 
 
 @Component({
@@ -20,12 +15,7 @@ import { ComponentOrCustomStatus } from '../component-status';
   `,
   styleUrls: ['./button.component.scss']
 })
-export class ButtonComponent {
-  @Input() appearance: ButtonAppearance = 'filled';
-  @Input() shape: ComponentShape = 'rectangle';
-  @Input() size: ComponentSize = 'medium';
-  @Input() status: ComponentOrCustomStatus = 'basic';
-
+export class ButtonComponent extends BaseComponent{
   @Input()
   @HostBinding('attr.aria-disabled')
   @HostBinding('class.btn-disabled')
@@ -40,82 +30,6 @@ export class ButtonComponent {
   }
   private _disabled: boolean = false;
   static ngAcceptInputType_disabled: BooleanInput;
-
-  @Input()
-  @HostBinding('class.status-primary')
-  get primary() {
-    return this.status === 'primary';
-  }
-
-  @HostBinding('class.status-info')
-  get info() {
-    return this.status === 'info';
-  }
-
-  @HostBinding('class.status-success')
-  get success() {
-    return this.status === 'success';
-  }
-
-  @HostBinding('class.status-warning')
-  get warning() {
-    return this.status === 'warning';
-  }
-
-  @HostBinding('class.status-danger')
-  get danger() {
-    return this.status === 'danger';
-  }
-
-  @HostBinding('class.status-basic')
-  get basic() {
-    return this.status === 'basic';
-  }
-
-  @HostBinding('class.status-control')
-  get control() {
-    return this.status === 'control';
-  }
-
-  @HostBinding('class.size-tiny')
-  get tiny() {
-    return this.size === 'tiny';
-  }
-
-  @HostBinding('class.size-small')
-  get small() {
-    return this.size === 'small';
-  }
-
-  @HostBinding('class.size-medium')
-  get medium() {
-    return this.size === 'medium';
-  }
-
-  @HostBinding('class.size-large')
-  get large() {
-    return this.size === 'large';
-  }
-
-  @HostBinding('class.size-giant')
-  get giant() {
-    return this.size === 'giant';
-  }
-
-  @HostBinding('class.shape-rectangle')
-  get rectangle() {
-    return this.shape === 'rectangle';
-  }
-
-  @HostBinding('class.shape-round')
-  get round() {
-    return this.shape === 'round';
-  }
-
-  @HostBinding('class.shape-semi-round')
-  get semiRound() {
-    return this.shape === 'semi-round';
-  }
 
   /**
    * Sets `filled` appearance
@@ -147,20 +61,6 @@ export class ButtonComponent {
   }
   static ngAcceptInputType_outline: BooleanInput;
 
-  /**
-   * If set element will fill its container
-   */
-  @Input()
-  @HostBinding('class.full-width')
-  get fullWidth(): boolean {
-    return this._fullWidth;
-  }
-  set fullWidth(value: boolean) {
-    this._fullWidth = convertToBoolProperty(value);
-  }
-  private _fullWidth = false;
-  static ngAcceptInputType_fullWidth: BooleanInput;
-
   @HostListener('click', ['$event'])
   onClick(event: { preventDefault: () => void; stopImmediatePropagation: () => void; }) {
     if (this.disabled) {
@@ -168,11 +68,4 @@ export class ButtonComponent {
       event.stopImmediatePropagation();
     }
   }
-
-  constructor(
-    protected renderer: Renderer2,
-    protected hostElement: ElementRef<HTMLElement>,
-    protected cd: ChangeDetectorRef,
-    protected zone: NgZone,
-  ) {}
 }

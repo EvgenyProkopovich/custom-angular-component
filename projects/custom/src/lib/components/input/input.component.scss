@@ -1,0 +1,170 @@
+/**
+ * Sets status color style
+ */
+
+::ng-deep input.status-info {
+  background-color: #f7f9fc;
+  border-color: #0095ff;
+  border-style: solid;
+  border-width: thin;
+  color: #222b45;
+}
+
+::ng-deep input.status-info:focus {
+  outline: none !important;
+  border:1px solid #0095ff;
+  box-shadow: 0 0 10px #719ECE;
+}
+
+::ng-deep input.status-primary {
+  background-color: #f7f9fc;
+  border-color: #3366ff;
+  border-style: solid;
+  border-width: thin;
+  color: #222b45;
+}
+
+::ng-deep input.status-primary:focus {
+  outline: none !important;
+  border:1px solid #3366ff;
+  box-shadow: 0 0 10px #719ECE;
+}
+
+::ng-deep input.status-success {
+  background-color: #f7f9fc;
+  border-color: #00d68f;
+  border-style: solid;
+  border-width: thin;
+  color: #222b45;
+}
+
+::ng-deep input.status-success:focus {
+  outline: none !important;
+  border:1px solid #00d68f;
+  box-shadow: 0 0 10px #719ECE;
+}
+
+::ng-deep input.status-warning {
+  background-color: #f7f9fc;
+  border-color: #ffaa00;
+  border-style: solid;
+  border-width: thin;
+  color: #222b45;
+}
+
+::ng-deep input.status-warning:focus {
+  outline: none !important;
+  border:1px solid #ffaa00;
+  box-shadow: 0 0 10px #719ECE;
+}
+
+
+::ng-deep input.status-danger {
+  background-color: #f7f9fc;
+  border-color: #ff3d71;
+  border-style: solid;
+  border-width: thin;
+  color: #222b45;
+}
+
+::ng-deep input.status-danger:focus {
+  outline: none !important;
+  border:1px solid #ff3d71;
+  box-shadow: 0 0 10px #719ECE;
+}
+
+::ng-deep input.status-basic {
+  background-color: #f7f9fc;
+  border-color: #e4e9f2;
+  border-style: solid;
+  border-width: thin;
+  color: #222b45;
+}
+
+::ng-deep input.status-basic:focus {
+  outline: none !important;
+  border:1px solid #e4e9f2;
+  box-shadow: 0 0 10px #719ECE;
+}
+
+::ng-deep input.status-control {
+  background-color: rgb(255 255 255 / 24%);
+  border-color: rgb(255 255 255 / 40%);
+  border-style: solid;
+  border-width: thin;
+  color: #ffffff;
+}
+
+::ng-deep input.status-control:focus {
+  outline: none !important;
+  border:1px solid rgb(255 255 255 / 40%);
+  box-shadow: 0 0 10px #719ECE;
+}
+
+/**
+ * Sets size style
+ */
+
+::ng-deep input.size-tiny {
+  font-size: .75rem;
+  line-height: 1rem;
+  padding: .1875rem 1rem;
+}
+
+::ng-deep input.size-small {
+  font-size: .8125rem;
+  line-height: 1.5rem;
+  padding: .1875rem 1rem;
+}
+
+::ng-deep input.size-medium {
+  font-size: .9375rem;
+  line-height: 1.5rem;
+  padding: .4375rem 1rem;
+}
+
+::ng-deep input.size-large {
+  font-size: .9375rem;
+  line-height: 1.5rem;
+  padding: .6875rem 1rem;
+}
+
+::ng-deep input.size-giant {
+  font-size: 1.125rem;
+  line-height: 1.5rem;
+  padding: .9375rem 1rem;
+}
+
+/**
+ * Sets shape style
+ */
+
+::ng-deep input.shape-rectangle {
+  border-radius: 0.25rem;
+}
+
+::ng-deep input.shape-semi-round {
+  border-radius: 0.65rem;
+}
+
+::ng-deep input.shape-round {
+  border-radius: 1.5rem;
+}
+
+/**
+ * Sets full-width style
+ */
+
+::ng-deep input.input-full-width {
+  width: 100%;
+}
+
+/**
+ * Sets input-disabled style
+ */
+
+::ng-deep input.input-disabled {
+  background-color: rgba(143, 155, 129, .24) !important;
+  border-color: rgba(143, 155, 129, .24) !important;
+  color: rgba(143, 155, 129, .48) !important;
+}
