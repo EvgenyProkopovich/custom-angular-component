@@ -7,7 +7,6 @@ import {
 import { BooleanInput, convertToBoolProperty } from '../helpers';
 import { BaseComponent } from '../base-component';
 
-
 @Component({
   selector: 'button[libButton]',
   template: `

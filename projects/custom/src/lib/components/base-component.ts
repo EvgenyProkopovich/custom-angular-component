@@ -121,12 +121,11 @@ export abstract class BaseComponent {
   private _fullWidth = false;
   static ngAcceptInputType_fullWidth: BooleanInput;
 
-  public constructor(
+  constructor(
+    public changeDetector: ChangeDetectorRef,
     public renderer: Renderer2,
     public hostElement: ElementRef<HTMLElement>,
     public cd: ChangeDetectorRef,
     public zone: NgZone,
-  ) {
-  }
-
+  ) {}
 }
