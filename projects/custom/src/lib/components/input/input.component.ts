@@ -5,7 +5,7 @@ import { BooleanInput, convertToBoolProperty } from '../helpers';
 import { BaseComponent } from '../base-component';
 
 @Component({
-  selector: 'input[libInput]',
+  selector: 'input[libCustomComponent]',
   template: `
     <ng-content></ng-content>
   `,

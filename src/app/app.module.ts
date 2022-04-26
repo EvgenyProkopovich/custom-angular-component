@@ -3,8 +3,7 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { ButtonModule, CustomModule, InputModule, CheckboxModule } from 'custom';
-
+import { ButtonModule, CustomModule, InputModule, CheckboxModule, RadioButtonModule } from 'custom';
 
 @NgModule({
   declarations: [
@@ -16,7 +15,8 @@ import { ButtonModule, CustomModule, InputModule, CheckboxModule } from 'custom'
     CustomModule,
     InputModule,
     ButtonModule,
-    CheckboxModule
+    CheckboxModule,
+    RadioButtonModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

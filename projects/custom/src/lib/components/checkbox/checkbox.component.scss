@@ -11,21 +11,21 @@
 }
 
 ::ng-deep checkbox.status-primary input.native-input {
-  accent-color: #3366ff;
+  accent-color: mediumblue;
 }
 
 ::ng-deep checkbox.status-info input.native-input {
-  accent-color: #0095ff;
+  accent-color: dodgerblue;
 }
 
 ::ng-deep checkbox.status-warning input.native-input {
-  accent-color: #ffaa00;
+  accent-color: chocolate;
 }
 
 ::ng-deep checkbox.status-danger input.native-input {
-  accent-color: #ff3d71;
+  accent-color: crimson;
 }
 
 ::ng-deep checkbox.status-success input.native-input {
-  accent-color: #00d68f;
+  accent-color: seagreen;
 }

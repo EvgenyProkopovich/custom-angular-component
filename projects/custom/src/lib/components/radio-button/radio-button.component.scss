@@ -1,0 +1,31 @@
+/**
+ * Sets status color style
+ */
+::ng-deep radio input.native-input {
+  width: 1.25rem;
+  height: 1.25rem;
+}
+
+::ng-deep radio.status-basic input.native-input {
+  accent-color: #8f9bb3;
+}
+
+::ng-deep radio.status-primary input.native-input {
+  accent-color: mediumblue;
+}
+
+::ng-deep radio.status-info input.native-input {
+  accent-color: dodgerblue;
+}
+
+::ng-deep radio.status-warning input.native-input {
+  accent-color: chocolate;
+}
+
+::ng-deep radio.status-danger input.native-input {
+  accent-color: crimson;
+}
+
+::ng-deep radio.status-success input.native-input {
+  accent-color: seagreen;
+}

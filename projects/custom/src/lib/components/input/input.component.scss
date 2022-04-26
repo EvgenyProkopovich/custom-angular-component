@@ -4,7 +4,7 @@
 
 ::ng-deep input.status-info {
   background-color: #f7f9fc;
-  border-color: #0095ff;
+  border-color: dodgerblue;
   border-style: solid;
   border-width: thin;
   color: #222b45;
@@ -12,13 +12,13 @@
 
 ::ng-deep input.status-info:focus {
   outline: none !important;
-  border:1px solid #0095ff;
+  border:1px solid dodgerblue;
   box-shadow: 0 0 10px #719ECE;
 }
 
 ::ng-deep input.status-primary {
   background-color: #f7f9fc;
-  border-color: #3366ff;
+  border-color: mediumblue;
   border-style: solid;
   border-width: thin;
   color: #222b45;
@@ -26,13 +26,13 @@
 
 ::ng-deep input.status-primary:focus {
   outline: none !important;
-  border:1px solid #3366ff;
+  border:1px solid mediumblue;
   box-shadow: 0 0 10px #719ECE;
 }
 
 ::ng-deep input.status-success {
   background-color: #f7f9fc;
-  border-color: #00d68f;
+  border-color: seagreen;
   border-style: solid;
   border-width: thin;
   color: #222b45;
@@ -40,13 +40,13 @@
 
 ::ng-deep input.status-success:focus {
   outline: none !important;
-  border:1px solid #00d68f;
+  border:1px solid seagreen;
   box-shadow: 0 0 10px #719ECE;
 }
 
 ::ng-deep input.status-warning {
   background-color: #f7f9fc;
-  border-color: #ffaa00;
+  border-color: chocolate;
   border-style: solid;
   border-width: thin;
   color: #222b45;
@@ -54,14 +54,14 @@
 
 ::ng-deep input.status-warning:focus {
   outline: none !important;
-  border:1px solid #ffaa00;
+  border:1px solid chocolate;
   box-shadow: 0 0 10px #719ECE;
 }
 
 
 ::ng-deep input.status-danger {
   background-color: #f7f9fc;
-  border-color: #ff3d71;
+  border-color: crimson;
   border-style: solid;
   border-width: thin;
   color: #222b45;
@@ -69,7 +69,7 @@
 
 ::ng-deep input.status-danger:focus {
   outline: none !important;
-  border:1px solid #ff3d71;
+  border:1px solid crimson;
   box-shadow: 0 0 10px #719ECE;
 }
 
