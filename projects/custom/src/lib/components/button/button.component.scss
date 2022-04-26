@@ -3,32 +3,32 @@
  */
 
 ::ng-deep button.appearance-filled.status-info {
-  background-color: #0095ff;
-  border-color: #0095ff;
+  background-color: dodgerblue;
+  border-color: dodgerblue;
   color: #ffffff;
 }
 
 ::ng-deep button.appearance-filled.status-primary {
-  background-color: #3366ff;
-  border-color: #3366ff;
+  background-color: mediumblue;
+  border-color: mediumblue;
   color: #ffffff;
 }
 
 ::ng-deep button.appearance-filled.status-success {
-  background-color: #00d68f;
-  border-color: #00d68f;
+  background-color: seagreen;
+  border-color: seagreen;
   color: #ffffff;
 }
 
 ::ng-deep button.appearance-filled.status-warning {
-  background-color: #ffaa00;
-  border-color: #ffaa00;
+  background-color: chocolate;
+  border-color: chocolate;
   color: #ffffff;
 }
 
 ::ng-deep button.appearance-filled.status-danger {
-  background-color: #ff3d71;
-  border-color: #ff3d71;
+  background-color: crimson;
+  border-color: crimson;
   color: #ffffff;
 }
 
@@ -130,32 +130,32 @@
 
 ::ng-deep button.appearance-outline.status-info {
   background-color: rgb(0 149 255 / 8%);
-  border-color: #0095ff;
-  color: #0095ff;
+  border-color: dodgerblue;
+  color: dodgerblue;
 }
 
 ::ng-deep button.appearance-outline.status-primary {
   background-color: rgb(51 102 255 / 8%);
-  border-color: #3366ff;
-  color: #3366ff;
+  border-color: mediumblue;
+  color: mediumblue;
 }
 
 ::ng-deep button.appearance-outline.status-success {
   background-color: rgb(0 214 143 / 8%);
-  border-color: #00d68f;
-  color: #00d68f;
+  border-color: seagreen;
+  color: seagreen;
 }
 
 ::ng-deep button.appearance-outline.status-warning {
   background-color: rgb(255 170 0 / 8%);
-  border-color: #ffaa00;
-  color: #ffaa00;
+  border-color: chocolate;
+  color: chocolate;
 }
 
 ::ng-deep button.appearance-outline.status-danger {
   background-color: rgb(255 61 113 / 8%);
-  border-color: #ff3d71;
-  color: #ff3d71;
+  border-color: crimson;
+  color: crimson;
 }
 
 ::ng-deep button.appearance-outline.status-basic {

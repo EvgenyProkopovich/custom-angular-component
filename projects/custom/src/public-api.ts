@@ -15,6 +15,9 @@ export * from './lib/components/input/input.module';
 export * from './lib/components/checkbox/checkbox.component';
 export * from './lib/components/checkbox/checkbox.module';
 
+export * from './lib/components/radio-button/radio-button.component';
+export * from './lib/components/radio-button/radio-button.module';
+
 export * from './lib/components/component-shape';
 export * from './lib/components/component-apperance';
 export * from './lib/components/component-size';

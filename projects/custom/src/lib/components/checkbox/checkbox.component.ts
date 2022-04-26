@@ -5,7 +5,7 @@ import { BooleanInput, convertToBoolProperty } from '../helpers';
 import { BaseComponent } from '../base-component';
 
 @Component({
-  selector: 'checkbox[libCheckbox]',
+  selector: 'checkbox[libCustomComponent]',
   templateUrl: './checkbox.component.html',
   styleUrls: ['./checkbox.component.scss']
 })

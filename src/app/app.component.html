@@ -1,42 +1,57 @@
 <div class="row padding">
-  <button libButton status="primary" size="medium" shape="semi-round">Hello</button>
+  <button libCustomComponent status="primary" size="medium" shape="semi-round">Hello</button>
 </div>
 <div class="row padding">
-  <button libButton status="info" size="tiny" shape="round" disabled>Hello</button>
+  <button libCustomComponent status="info" size="tiny" shape="round" disabled>Hello</button>
 </div>
 <div class="row padding">
-  <button libButton status="danger" size="large" shape="rectangle">Hello</button>
+  <button libCustomComponent status="danger" size="large" shape="rectangle" appearance="outline">Hello</button>
 </div>
 <div class="row padding">
-  <button libButton status="warning" size="small">Hello</button>
+  <button libCustomComponent status="warning" size="small" appearance="outline">Hello</button>
 </div>
 <div class="row padding">
-  <input libInput status="basic" size="tiny"/>
+  <input libCustomComponent status="basic" size="tiny"/>
 </div>
 <div class="row padding">
-  <input libInput status="primary" size="medium" shape="semi-round" disabled/>
+  <input libCustomComponent status="primary" size="medium" shape="semi-round" disabled/>
 </div>
 <div class="row padding">
-  <input libInput status="info" size="large" shape="round"/>
+  <input libCustomComponent status="info" size="large" shape="round"/>
 </div>
 <div class="row padding">
-  <input libInput status="warning" size="giant" fullWidth/>
+  <input libCustomComponent status="warning" size="giant" fullWidth/>
 </div>
 <div class="row padding">
-  <input libInput status="danger" size="medium" />
+  <input libCustomComponent status="danger" size="medium" />
 </div>
 <div class="row padding">
-  <input libInput status="control" size="medium"/>
+  <input libCustomComponent status="control" size="medium"/>
 </div>
 <div class="row padding">
-  <checkbox libCheckbox status="primary" size="tiny"></checkbox>
+  <checkbox libCustomComponent status="primary"></checkbox>
 </div>
 <div class="row padding">
-  <checkbox libCheckbox status="danger" size="small"></checkbox>
+  <checkbox libCustomComponent status="danger"></checkbox>
 </div>
 <div class="row padding">
-  <checkbox libCheckbox status="warning" size="medium"></checkbox>
+  <checkbox libCustomComponent status="warning" checked (checkedChange)="change($event)"></checkbox>
 </div>
 <div class="row padding">
-  <checkbox libCheckbox status="info" size="large" disabled></checkbox>
+  <checkbox libCustomComponent status="info" disabled></checkbox>
+</div>
+<div class="row padding">
+  <radio libCustomComponent status="info"></radio>
+</div>
+<div class="row padding">
+  <radio libCustomComponent status="primary"></radio>
+</div>
+<div class="row padding">
+  <radio libCustomComponent status="danger" checked="true"></radio>
+</div>
+<div class="row padding">
+  <radio libCustomComponent status="warning"></radio>
+</div>
+<div class="row padding">
+  <radio libCustomComponent status="success"></radio>
 </div>
