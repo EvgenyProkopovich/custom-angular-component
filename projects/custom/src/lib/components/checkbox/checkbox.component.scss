@@ -1,0 +1,31 @@
+/**
+ * Sets status color style
+ */
+::ng-deep checkbox input.native-input {
+  width: 1.25rem;
+  height: 1.25rem;
+}
+
+::ng-deep checkbox.status-basic input.native-input {
+  accent-color: #8f9bb3;
+}
+
+::ng-deep checkbox.status-primary input.native-input {
+  accent-color: #3366ff;
+}
+
+::ng-deep checkbox.status-info input.native-input {
+  accent-color: #0095ff;
+}
+
+::ng-deep checkbox.status-warning input.native-input {
+  accent-color: #ffaa00;
+}
+
+::ng-deep checkbox.status-danger input.native-input {
+  accent-color: #ff3d71;
+}
+
+::ng-deep checkbox.status-success input.native-input {
+  accent-color: #00d68f;
+}
